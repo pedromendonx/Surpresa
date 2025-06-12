@@ -9,7 +9,7 @@ function Momentos() {
     window.scrollTo(0, 0); 
     setTimeout(() => {
         navigate('/Game'); 
-    }, 20); 
+    }, 30); 
 };
     return (
         <section className='mt-5'>
