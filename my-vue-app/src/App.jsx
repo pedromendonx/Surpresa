@@ -4,6 +4,7 @@ import './App.css'
 import PagInicial from './components/PagInicial.jsx';
 import Momentos from './components/momentos.jsx';
 import Game from './components/game.jsx';
+import Tempo from './components/Tempo.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
@@ -22,6 +23,7 @@ function App() {
 
       } />
       <Route path="/Game" element={<Game />} />
+      <Route path="/tempo" element={<Tempo />} />
     </Routes>
   </Router>
   )

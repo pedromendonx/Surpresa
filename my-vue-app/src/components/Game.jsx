@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Album from '../assets/img/capa_album.webp';
+import { Link } from "react-router-dom";
 
 const questions = [
     {
@@ -125,7 +126,7 @@ function Game() {
             </section>
 
             <section className='quiz container mb-5'>
-                <h1 className='mb-4 pb-4'> Porém, você lembra dos nossos momentos? </h1>
+                <h1 className='mb-4 pb-4'> Porém, você lembra deles? </h1>
                 <div className='card shadow p-4'>
 
                     {!quizFinished ? (
@@ -159,9 +160,14 @@ function Game() {
                         <>
                             <h3 className='text-success mb-4'>🎉 Quiz finalizado!</h3>
                             <p>Sua pontuação: <strong>{score} / {questions.length}</strong></p>
-                            <button className='btn btn-outline-primary mt-3' onClick={handleRestart}>
+                            <button className='btn btn-outline-primary mt-3 col-12' onClick={handleRestart}>
                                 Tentar novamente
                             </button>
+                            <Link to="/tempo">
+                                <button className="btn btn-outline-dark mt-3 col-12">
+                                    Nosso Tempo Juntos
+                                </button>
+                            </Link>
                             <p className="text-muted mt-2">
                                 Última pontuação salva: {localStorage.getItem('quiz_score')} pontos
                             </p>

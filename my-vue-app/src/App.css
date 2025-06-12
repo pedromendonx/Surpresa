@@ -40,3 +40,139 @@
 .read-the-docs {
   color: #888;
 }
+
+/* ESTILO GERAL */
+body {
+  background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+ font-family: 'Montserrat', sans-serif;
+  color: #333;
+}
+
+h1, h3, h4, h5, p {
+  color: #6b003b;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* SECTION - PagInicial */
+.pagInicial {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    padding: 2rem;
+    margin-bottom: 4rem;
+    z-index: 2;
+    position: relative;
+}
+
+
+.text-shadow {
+  text-shadow: 2px 2px 4px #fff0f5;
+}
+
+/* SECTION - Momentos */
+.card-text {
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #9b004e;
+}
+
+.btn-dark {
+  background-color: #9b004e;
+  border: none;
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+  border-radius: 25px;
+}
+
+.btn-dark:hover {
+  background-color: #ff6699;
+}
+
+/* SECTION - Game */
+.image img {
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+
+.quiz h1 {
+  font-weight: bold;
+  color: #b0005b;
+}
+
+.quiz .card {
+  background-color: #fff0f5;
+  border-radius: 20px;
+  border: none;
+}
+
+.list-group-item {
+  background-color: #ffe4ec;
+  color: #4a0033;
+  font-weight: 500;
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ffb6c1;
+}
+
+.list-group-item:hover {
+  background-color: #ffc6d1;
+}
+
+.list-group-item-success {
+  background-color: #c1e1c1 !important;
+  color: #155724;
+}
+
+.list-group-item-danger {
+  background-color: #f8d7da !important;
+  color: #721c24;
+}
+
+.btn-primary {
+  background-color: #ff4d88;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #e6005c;
+}
+
+.btn-outline-primary {
+  color: #e6005c;
+  border-color: #e6005c;
+  font-weight: bold;
+}
+
+.btn-outline-primary:hover {
+  background-color: #e6005c;
+  color: #fff;
+}
+
+.text-muted {
+  font-style: italic;
+  color: #6c757d !important;
+}
+
+@media (max-width: 768px) {
+  .quiz h1,
+  .pagInicial h1,
+  .pagInicial p,
+  .card-text,
+  .quiz .card,
+  .list-group-item {
+    text-align: center;
+  }
+
+  .image img {
+    margin-bottom: 1rem;
+  }
+}

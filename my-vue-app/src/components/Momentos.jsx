@@ -25,7 +25,7 @@ function Momentos() {
             </div>
 
             <div className='gap-2 col-12'>
-                <button onClick={handleButtonClick} type="button" class="btn btn-dark">Dark</button>
+                <button onClick={handleButtonClick} type="button" class="btn btn-dark">Continua...</button>
             </div>
         </section>
 
