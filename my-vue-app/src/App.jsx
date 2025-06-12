@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import './App.css'
 import PagInicial from './components/PagInicial.jsx';
-import Momentos from './components/momentos.jsx';
+import Momentos from './components/Momentos.jsx';
 import Game from './components/game.jsx';
 import Tempo from './components/Tempo.jsx';
 import ScrollToTop from './components/ScrollToTop'; 
