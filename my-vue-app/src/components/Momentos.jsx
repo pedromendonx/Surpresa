@@ -6,9 +6,11 @@ function Momentos() {
       const navigate = useNavigate();
 
   const handleButtonClick = () => {
-    window.scrollTo(0, 0);
-    navigate('/Game');
-  };
+    window.scrollTo(0, 0); 
+    setTimeout(() => {
+        navigate('/Game'); 
+    }, 20); 
+};
     return (
         <section className='mt-5'>
             <div className="row mt-4">

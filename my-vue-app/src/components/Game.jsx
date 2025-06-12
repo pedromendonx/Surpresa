@@ -69,6 +69,9 @@ function Game() {
 
     useEffect(() => {
         // Carrega pontuação anterior, se existir
+
+         window.scrollTo(0, 0);
+
         const savedScore = localStorage.getItem('quiz_score');
         if (savedScore) {
             console.log(`Pontuação anterior: ${savedScore}`);

@@ -5,6 +5,7 @@ import PagInicial from './components/PagInicial.jsx';
 import Momentos from './components/momentos.jsx';
 import Game from './components/game.jsx';
 import Tempo from './components/Tempo.jsx';
+import ScrollToTop from './components/ScrollToTop'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
@@ -13,6 +14,7 @@ function App() {
 
   return (
   <Router>
+     <ScrollToTop /> 
     <Routes>
       <Route path="/" element={
 
