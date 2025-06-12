@@ -15,6 +15,9 @@
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.2",
     "react-router": "^7.6.2"
+  }
+  "dependencies": {
+    "react-router-dom": "^7.6.2"
   },
 
   "devDependencies": {
